@@ -17,6 +17,20 @@
         display: none;
     }
 
+    .tab{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .escondido{
+        width: 300px;
+    }
+
+    .lado1{
+        padding-bottom: 40px;
+    }
+
+
     .imgs{
         display: grid;
         grid-template-columns: 1fr;
@@ -94,7 +108,10 @@
     .direitos--reservados{
         font-size: 14px;
     }
-
+    
+    .escondido{
+        width: 250px;
+    }
 }
 
 @media(max-width: 375px){
